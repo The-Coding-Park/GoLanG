@@ -23,6 +23,7 @@ func loop3() {
 		fmt.Println()
 	}
 }
+
 func main() {
 	loop()
 	loop2()
