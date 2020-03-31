@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 //create a new type of deck
@@ -33,5 +34,5 @@ func deal(d deck, handSize int) (deck, deck) {
 }
 
 func (d deck) toString() string {
-	[]string(d)
+	return strings.Join([]string(d), ",")
 }
